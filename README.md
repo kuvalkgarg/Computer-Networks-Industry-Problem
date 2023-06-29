@@ -19,7 +19,7 @@ pip install hashlib
 4. Open a terminal or command prompt and navigate to the project directory.
 5. Run the Python script by executing the following command:
 ```
-python network_tools.py
+python web_watch.py
 ```
 
 # Configuration
