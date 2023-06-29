@@ -2,14 +2,12 @@
 
 This project consists of various network tools implemented in Python. It includes features such as fingerprinting using sockets, port scanning, and web server monitoring. These tools can be used to gather information about systems on a network, check the status of ports, and monitor changes on a specific web server.
 
-
 ## Languages and Frameworks/Libraries
 The project is implemented in **Python**. The following libraries are utilized:
 
 **socket:** Used for socket programming to establish network connections and perform fingerprinting.
 **hashlib:** Used for generating hashes of web server content.
 **urllib:** Used for sending HTTP requests and retrieving web server content.
-
 
 ## Installation and Execution
 Clone the repository to your local machine.
@@ -38,7 +36,6 @@ Web Server Monitoring:
 Modify the **url** variable in the source code to specify the website you want to monitor.
 Run the script, and it will periodically check the website's content hash for changes.
 If any changes are detected, it will notify you and provide the updated content hash.
-
 
 ## Conclusion
 This project provides a set of network tools implemented in Python. By utilizing socket programming, port scanning, and web server monitoring, it offers functionalities to gather system information, check port statuses, and monitor web server content changes. Feel free to explore and customize the tools according to your specific needs.
