@@ -1,6 +1,5 @@
 #  Web Server Monitoring, Port Scanning and Fingerprinting Suite
 
-## Description
 This project consists of various network tools implemented in Python. It includes features such as fingerprinting using sockets, port scanning, and web server monitoring. These tools can be used to gather information about systems on a network, check the status of ports, and monitor changes on a specific web server.
 
 ## Languages and Frameworks/Libraries
