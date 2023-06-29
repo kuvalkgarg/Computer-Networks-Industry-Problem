@@ -10,29 +10,29 @@ The project is implemented in **Python**. The following libraries are utilized:
 **urllib:** Used for sending HTTP requests and retrieving web server content.
 
 # Installation and Execution
-Clone the repository to your local machine.
-Ensure you have Python installed (version 3.0 or above).
-Install the required dependencies by running the following command:
+1. Clone the repository to your local machine.
+2. Ensure you have Python installed (version 3.0 or above).
+3. Install the required dependencies by running the following command:
 ```
 pip install hashlib
 ```
-Open a terminal or command prompt and navigate to the project directory.
-Run the Python script by executing the following command:
+4. Open a terminal or command prompt and navigate to the project directory.
+5. Run the Python script by executing the following command:
 ```
 python network_tools.py
 ```
 
-# Setup
-Fingerprinting using Sockets:
+# Configuration
+1. Fingerprinting using Sockets:
 Modify the **target_host** and **target_port** variables in the source code to specify the host and port you want to fingerprint.
 Run the script and observe the output, which will display the information of the system and services running on the open ports.
 
-Port Scanner:
+2. Port Scanner:
 When prompted, enter the host you would like to scan for open ports.
 The script will scan a range of ports and display whether each port is open or closed.
 Additionally, you can enter a specific port number to scan individually.
 
-Web Server Monitoring:
+3. Web Server Monitoring:
 Modify the **url** variable in the source code to specify the website you want to monitor.
 Run the script, and it will periodically check the website's content hash for changes.
 If any changes are detected, it will notify you and provide the updated content hash.
